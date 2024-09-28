@@ -4,5 +4,6 @@
   "semi": true,
   "printWidth": 80,
   "endOfLine": "auto",
+  "proseWrap": "always",
   "singleQuote": true
 }

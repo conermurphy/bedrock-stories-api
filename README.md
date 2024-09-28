@@ -1,14 +1,16 @@
-# Welcome to your CDK TypeScript project
+# REST API for generating stories using AWS Bedrock
 
-This is a blank project for CDK development with TypeScript.
+This repo contains an example REST API with one endpoint which can generate
+stories using AWS Bedrock in response to a POST request containing a prompt.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## AWS Services Used
 
-## Useful commands
+- Bedrock
+- API Gateway
+- Lambda
+- CDK
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Learn More
+
+- [Blog Post: Generate text using AWS Bedrock](https://conermurphy.com/blog/generating-text-aws-bedrock-lambda-typescript-sdk)
+- [Blog Post: Generate images using AWS Bedrock and store them in S3](https://conermurphy.com/blog/image-generation-stable-diffusion-aws-bedrock-typescript)
